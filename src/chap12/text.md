@@ -1,5 +1,5 @@
 ### Simple todo
 
-- Todoリストを最上位Componentのstateとして管理する
-- 各Todoを表示するli要素は別Componentにする
-- TodoItem内にToggleボタン，Deleteボタンがあるが，onClickはコールバックで渡す
+- Todoリストをstateとして管理する
+- inputの値は`state`で管理する
+- ボタンの`onClick`で，inputの値をTodoリストに追加する
