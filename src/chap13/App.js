@@ -11,9 +11,9 @@ class TodoItem extends Component {
           textDecoration: todo.done ? 'line-through' : 'none',
         }}
       >
-        { todo.text }
         <button onClick={this.props.onToggle}>toggle</button>
         <button onClick={this.props.onDelete}>x</button>
+        { todo.text }
       </li>
     );
   }

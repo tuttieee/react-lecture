@@ -8,9 +8,13 @@ export default class extends Component {
       <div>
         <h2>Composability</h2>
 
-        <App />
+        <div className="panel panel-default">
+          <div className="panel-body">
+            <App />
+          </div>
+        </div>
 
-        <section>
+        <section className="well">
           <h3>このサンプルのポイント</h3>
           <ul>
             <li>Component単位で画面の部品をつくる</li>

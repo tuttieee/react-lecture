@@ -8,9 +8,13 @@ export default class extends Component {
       <div>
         <h2>Simple Todo</h2>
 
-        <App />
+        <div className="panel panel-default">
+          <div className="panel-body">
+            <App />
+          </div>
+        </div>
 
-        <section>
+        <section className="well">
           <h3>このサンプルのポイント</h3>
           <ul>
             <li>Todoリストを最上位Componentのstateとして管理する</li>

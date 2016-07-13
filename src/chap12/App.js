@@ -41,7 +41,7 @@ export default class extends Component {
             this.setState({
               todos: [
                 ...prevTodos,
-                todo,
+                this.state.text,
               ],
             });
 
