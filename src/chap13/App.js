@@ -9,6 +9,7 @@ class TodoItem extends Component {
       <li
         style={{
           textDecoration: todo.done ? 'line-through' : 'none',
+          color: todo.done ? 'gray' : 'black',
         }}
       >
         <button onClick={this.props.onToggle}>toggle</button>

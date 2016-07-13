@@ -1,26 +1,22 @@
 import React, { Component } from 'react';
+import ReactMarkdown from 'react-markdown';
 
 import App from './App';
+
+const input = require('raw!./text.md');
 
 export default class extends Component {
   render() {
     return (
       <div>
-        <h2>Todo</h2>
-
         <div className="panel panel-default">
           <div className="panel-body">
             <App />
           </div>
         </div>
 
-        <section className="well well-default">
-          <h3>このサンプルのポイント</h3>
-          <ul>
-            <li>Todoリストを最上位Componentのstateとして管理する</li>
-            <li>各Todoを表示するli要素は別Componentにする</li>
-            <li>TodoItem内にToggleボタン，Deleteボタンがあるが，onClickはコールバックで渡す</li>
-          </ul>
+        <section className="well">
+          <ReactMarkdown source={input} />
         </section>
       </div>
     );
