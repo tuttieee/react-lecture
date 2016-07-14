@@ -1,6 +1,8 @@
 # React勉強会
 
 ## 環境構築
+_これに従わずに自分でReactの開発環境整える！という方はそれでもOKです．Reactアプリを書いて動作を確かめられる環境があれば大丈夫です．_
+
 #### Pre requirements
 - Nodejs
 - git
@@ -36,3 +38,4 @@ Hello, world.
 使っているエディタにESLintプラグインがあれば導入しておくとスタイルの誤りを指摘してくれます．
 
 例えばAtomなら[linter-eslint](https://atom.io/packages/linter-eslint)を入れます．
+
