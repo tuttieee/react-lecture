@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
 
-import Chap11 from './chap11'
-import Chap12 from './chap12'
-import Chap13 from './chap13'
+import Chap11 from './chap11';
+import Chap12 from './chap12';
+import Chap13 from './chap13';
+import Chap14 from './chap14';
+import Chap21 from './chap21';
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
               <li><Link to='11'>Composability</Link></li>
               <li><Link to='12'>Simple todo</Link></li>
               <li><Link to='13'>Todo</Link></li>
+              <li><Link to='14'>Counter w/o redux</Link></li>
+              <li><Link to='21'>Counter w/ redux</Link></li>
             </ul>
           </div>
         </nav>
@@ -33,7 +37,7 @@ class App extends Component {
 
 class None extends Component {
   render() {
-    console.log('no match')
+    console.log('no match');
     return <h1>React 勉強会</h1>
   }
 }
@@ -47,9 +51,11 @@ export default class extends Component {
           <Route path="11" component={Chap11}/>
           <Route path="12" component={Chap12}/>
           <Route path="13" component={Chap13}/>
+          <Route path="14" component={Chap14}/>
+          <Route path="21" component={Chap21}/>
           <Route path="*" component={None}/>
         </Route>
       </Router>
-    )
+    );
   }
 }

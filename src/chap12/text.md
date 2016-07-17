@@ -1,4 +1,4 @@
-### Simple todo
+## Simple todo
 
 - Todoリストをstateとして管理する
 - inputの値は`state`で管理する
