@@ -39,3 +39,9 @@ Hello, world.
 
 例えばAtomなら[linter-eslint](https://atom.io/packages/linter-eslint)を入れます．
 
+## References
+github pages:
+[http://tuttieee.com/react-lecture/](http://tuttieee.com/react-lecture/)
+
+gist:
+[https://gist.github.com/yuichiroTCY/a1ac09944dd1209117fac3a87da7262e](https://gist.github.com/yuichiroTCY/a1ac09944dd1209117fac3a87da7262e)
