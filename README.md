@@ -41,7 +41,7 @@ Hello, world.
 
 ## References
 github pages:
-[http://tuttieee.com/react-lecture/](http://tuttieee.com/react-lecture/)
+http://tuttieee.github.io/react-lecture/
 
 gist:
-[https://gist.github.com/yuichiroTCY/a1ac09944dd1209117fac3a87da7262e](https://gist.github.com/yuichiroTCY/a1ac09944dd1209117fac3a87da7262e)
+https://gist.github.com/tuttieee/a1ac09944dd1209117fac3a87da7262e
